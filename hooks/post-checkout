@@ -1,0 +1,6 @@
+#!/usr/bin/sh
+set +
+echo "building project ......"
+if [[ -f "buildout.cfg" ]]; then
+    buildout -c buildout.cfg
+fi
